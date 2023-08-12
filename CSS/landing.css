@@ -1,0 +1,229 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-login {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.medsos-Images {
+  width: 100%;
+  height: 300px;
+}
+
+.subText1 {
+  margin-top: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+.subText2 {
+  font-size: 25px;
+  color: black;
+}
+
+.left-Login {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-Login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid gray;
+  padding: 20px 40px 50px 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+input[type="email"] {
+  margin-top: 10px;
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input[type="password"] {
+  margin-top: 10px;
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  
+}
+
+.button-Login {
+  margin-top: 10px;
+  width: 305px;
+  height: 25px;
+  background-color: #4169e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.Sign-up {
+  border: 1px solid grey;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 20px;
+  color: black;
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 550px) {
+  .left-Login {
+    display: none;
+  }
+
+  .right-Login {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-login {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    padding: 0;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    box-shadow: none;
+    background-color: #f5f5f5;
+  }
+
+  input[type="email"] {
+    margin-top: 50px;
+    max-width: 300px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  input[type="password"] {
+    margin-top: 10px;
+    max-width: 300px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .button-Login {
+    margin-top: 10px;
+    width: 305px;
+    height: 25px;
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .Sign-up {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    background-color: #f5f5f5;
+  } 
+}
+
+@media only screen and (max-width: 768px) {
+  .left-Login {
+    display: none;
+  }
+
+  .right-Login {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .form-login {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    padding: 20px;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    box-shadow: none;
+    background-color: #f5f5f5;
+  }
+
+  input[type="email"] {
+    margin-top: 40px;
+    max-width: 300px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  input[type="password"] {
+    margin-top: 10px;
+    max-width: 300px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .button-Login {
+    margin-top: 10px;
+    width: 305px;
+    height: 25px;
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .Sign-up {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0;
+    background-color: #f5f5f5;
+  }
+}
